@@ -1,0 +1,18 @@
+.wrapper {
+	width: 800px;
+	min-height: 750px;
+
+}
+
+
+.button {
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    margin: 10px 10px 20px 400px;
+    border-radius: 50%;
+    background: radial-gradient(ellipse at center, #f9f9f9 0%, #ccc 100%);
+    box-shadow: inset 4px 4px 6px rgba(255, 255, 255, 0.5),
+        inset -4px -4px 6px rgba(0, 0, 0, 0.2),
+        4px 4px 6px rgba(0, 0, 0, 0.2);
+}

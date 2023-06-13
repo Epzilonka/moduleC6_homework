@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 15px;
+}
+
+.chat_wrapper {
+    display: block;
+    width: 320px;
+    height: 520px;
+    margin: 20px;
+    border: solid 2px black;
+    border-radius: 20px;
+    background-color: #bebcba;
+    margin: 20px 40px;
+
+}
+
+.screen {
+    display: block;
+    width: 290px;
+    height: 440px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: #000000;
+    border: solid 2px black;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.send_message {
+    display: none;
+    padding: 10px;
+}
+
+
+.srv_msg_style {
+    display: flex;
+    margin: 5px
+}
+
+.srv_msg_style>span {
+    max-width: 200px;
+    background: #0181cc;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.srv_msg_style>span>a {
+    color: #FFFF00;
+}
+
+.usr_msg_style {
+    display: flex;
+    flex-direction: row-reverse;
+
+    margin: 5px;
+}
+
+.usr_msg_style>span {
+    max-width: 200px;
+    background: #ef8201;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.bottom_panel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.on_off_btn {
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/power-on.png');
+    background-position: center;
+    background-size: 40px 40px;
+    border-radius: 50%;
+}
+
+.geoloc_btn {
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/gui_globe_icon.svg');
+    background-position: center;
+    background-size: 40px 40px;
+    border-radius: 50%;
+}
+
+.on_off_btn {
+    box-shadow: inset 0 0 5px #000000;
+}
+
+.geoloc_btn {
+    box-shadow: inset 0 0 5px #000000;
+}
+
+.input_text {
+    width: 180px;
+    height: 20px;
+    border: 2px solid #0181cc;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.submit_btn {
+    height: 29px;
+    padding: 3px;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #ef8201;
+}
